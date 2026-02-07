@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #14120b;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #14120b;
+  margin-bottom: 180px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 52px;
+
+  align-items: center;
+  /* color: whitesmoke; */
+}
+.nav-links a {
+  text-decoration: none;
+  color: #edecec;
+  padding: 20px;
+}
+.nav-links a:hover {
+  color: #bcbcbc;
+}
+/* .auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+.auth-buttons button {
+  padding: 14px 30px;     
+  /* font-size: 30px;        
+  border-radius: 30px;  
+  cursor: pointer;
+  transition: 0.3s ease;
+} */
+
+/* .auth-buttons .Signin-btn {
+  background-color: transparent;
+
+  border: 2px solid #edecec;
+  color: #edecec;
+  cursor: pointer;
+}
+.auth-buttons .Download {
+  background-color: #edecec;
+  border: none;
+  color: #14120b;
+  cursor: pointer;
+} */
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Style all buttons */
+.auth-buttons button {
+  padding: 20px 70px; /* Bigger size */
+  font-size: 40px; /* Bigger text */
+  border-radius: 40px; /* More rounded */
+  cursor: pointer;
+  margin-right: 50px;
+  transition: 0.3s ease;
+}
+
+/* Sign In Button */
+.auth-buttons .Signin-btn {
+  background-color: transparent;
+  border: 2px solid #f0f0f0;
+  color: #edecec;
+}
+
+.auth-buttons .Signin-btn:hover {
+  background-color: #1f1c14;
+  color: #edecec;
+}
+
+/* Download Button */
+.auth-buttons .Download {
+  background-color: #edecec;
+  border: none;
+  color: #14120b;
+}
+
+.auth-buttons .Download:hover {
+  background-color: #bcbcbc;
+}
+
+.main {
+  padding: 112px 60px;
+  color: #14120b;
+}
+
+h1 {
+  color: #edecec;
+  font:
+    80px "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.main button {
+  padding: 300px 70px; /* Bigger size */
+  background-color: #edecec;
+  border: none;
+  color: #14120b;
+  padding: 20px 40px;
+  font-size: 70px;
+  cursor: pointer;
+  border-radius: 60px;
+  margin-bottom: 150px;
+}
+.main button:hover {
+  background-color: #bcbcbc;
+}
+.img {
+   display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  padding: 40px;
+}
+.img img {
+   width: 10250px;      /* increase size here */
+  max-width: 100%;  /* responsive on small screens */
+  height: auto;     /* keep aspect ratio */
+  border-radius: 20px;   /* smooth corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* soft shadow */
+  transition: 0.3s ease;
+}
+
+.trusted {
+  text-align: center;
+  margin-top: 120px;
+  
+}
+.trusted h2 {
+  color: #edecec;
+  font-size: 50px;
+  font-weight: normal;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 60px;
+}
+
+.grid-container {
+   
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+.grid-item {
+  background-color: #1b1913;
+    min-height: 280px;
+  padding: 40px;
+  color: #edecec;
+  padding: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.grid-item img {
+    align-items: center;
+   width: 50%;       /* Increase this value: 50% → 60% → 70% → 80% */
+  max-width: 200px; /* Hard limit so it doesn’t get too huge */
+  height: auto;
+  margin-bottom: 15px;
+}
+.hero-section2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    min-height: 750px;
+    padding: 60px;
+    background-color: #1b1913;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.left{
+    font-size: 26px;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.left h3{
+    font-size: 60px;
+    color: #edecec;
+}
+.left p{
+    font-size: 60px;
+    color: oklab(0.943853 0.00107113 0.000336707/0.6);
+}
+.left a{
+    font-size: 48px;
+    text-decoration: none;
+    color: #F54E00;
+}
+.right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+
+    width: 100%;
+    height: auto;
+}
